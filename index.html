@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.css.map">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-10 fw-bold">Movies catalog</h1>
+
+        <div class="row justify-content-between align-item-start">
+            <div class="col-4">
+              <form action="https:htmlacademy.ru">
+                <div class="mt-1">
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input type="text" class="form-control" name="text" id="exampleInputEmail1" placeholder="ave" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-4">
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input type="number" class="form-control" name="namber" id="exampleInputEmail1" placeholder="5" aria-describedby="emailHelp">
+                </div>
+
+                <select class="form-select mb-4" aria-label="Default select example">
+                    <option selected>All</option>
+                    <option value="1">sport</option>
+                    <option value="2">ujs</option>
+                    <option value="3">ramantika</option>
+                </select>
+
+                <select class="form-select mb-4" aria-label="Default select example">
+                    <option selected>Rating (high to low)</option>
+                    <option value="1">select</option>
+                    <option value="2">select top</option>
+                    <option value="3">select bottom</option>
+                </select>
+
+                <input class="btn btn-primary w-100 mb-4" type="submit" value="Search">
+
+              </form>
+
+              <h2 class="h1 text-center w-100 fw-normal">Bookmarket movies<i class="bi bi-film ms-2"></i></h2>
+
+              <ul class="list-group">
+                <li class="list-group-item"> <h4 class="h4">Avenger Infinity War</h4>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill me-3"></i>Remove</button></li>   
+                <li class="list-group-item"> <h4 class="h4">The Avengers</h4>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill me-3"></i>Remove</button></li>
+                <li class="list-group-item"> <h4 class="h4">12 Yaers a Slave</h4>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash3-fill me-3"></i>Remove</button></li>
+              </ul>
+            </div>
+            <div class="col-8 pt-4 ps-5">
+                <p class="fw-normal fs-5 mb-0 !important">Search resuls:39</p>
+                <div class="alert alert-success fst-normal" role="alert">
+                    Use the form on the to search for a movie
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                          <img src="./img/infinitywar.0.jpg" width="100" height="250" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Avenger: Infinity War</h5>
+                          <p class="card-text fw-normal mb-4"><i class="bi bi-calendar2-fill me-2"></i>2018</p>
+                          <p><i class="bi bi-star me-2"></i>8.7</p>
+                          <button type="button" class="btn btn-outline-primary me-4 mb-2">Watch trailer</button>
+                          <button type="button" class="btn btn-outline-info me-4 mb-2">More info</button>
+                          <button type="button" class="btn btn-outline-success">Bookmark</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <img src="./img/zz999_9999_comp_ars000_3090_v283_rec709_v002_main_1003.jpeg" width="100" height="250" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold">The Avengers</h5>
+                            <p class="card-text fw-normal mb-4"><i class="bi bi-calendar2-fill me-2"></i>2012</p>
+                            <p><i class="bi bi-star me-2"></i>8.1</p>
+                            <button type="button" class="btn btn-outline-primary me-4 mb-2">Watch trailer</button>
+                            <button type="button" class="btn btn-outline-info me-4 mb-2">More info</button>
+                            <button type="button" class="btn btn-outline-success">Bookmark</button>
+                      </div>
+                    </div>
+                  </div>
+               
+            </div> 
+            <nav aria-label="https:htmlacademy.ru" class="text-center position-relative my-5">
+                <ul class="pagination pagination-lg mt-4 text-center position-absolute top-50 start-50 translate-middle">
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">1</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                </ul>
+              </nav>
+        </div>  <!-- col-8 -->
+
+    </div> <!-- container -->
+</body>
+</html> 
